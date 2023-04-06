@@ -1,6 +1,11 @@
 # day 2 solution
 # Rock Paper Scissors
 
+# format input list to remove spaces
+input_file = '2022/2/input.txt'
+with open(input_file) as f:
+    guide = f.read().replace(' ', '').splitlines()
+
 # all posible outcomes of encrypted rock paper scissors
 encrypted = {
     'BX': 1,
@@ -26,9 +31,6 @@ decoded = {
     'AZ': 8,
     'BZ': 9
 }
-
-# format input list to remove spaces
-guide = open('2022/2/input.txt').read().replace(' ', '').splitlines()
 
 # ans for part 1
 print(f'part 1: {sum(encrypted[round] for round in guide)}')

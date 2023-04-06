@@ -4,8 +4,10 @@
 from string import ascii_letters
 
 # list of all rucksacks
-sacks = open('2022/3/input.txt').read().splitlines()
-
+input_file = '2022/3/input.txt'
+with open(input_file) as f:
+    sacks = f.read().splitlines()
+    
 # find priority of shared item type of each rucksack and calculate sum of all priorities
 total_prio = 0
 for sack in sacks:

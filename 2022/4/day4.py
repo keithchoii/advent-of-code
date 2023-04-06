@@ -2,7 +2,9 @@
 # Camp Cleanup
 
 # list of all pairs and their section assignments
-pairs = open('2022/4/input.txt').read().splitlines()
+input_file = '2022/4/input.txt'
+with open(input_file) as f:
+    pairs = f.read().splitlines()
 
 # count which pairs have assignments where one fully contains the other
 contain = 0
