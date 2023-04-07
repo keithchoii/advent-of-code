@@ -4,7 +4,7 @@
 from string import ascii_letters
 
 # list of all rucksacks
-input_file = '2022/3/input.txt'
+input_file = '2022/3/3.txt'
 with open(input_file) as f:
     sacks = f.read().splitlines()
     

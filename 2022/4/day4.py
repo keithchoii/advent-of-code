@@ -2,7 +2,7 @@
 # Camp Cleanup
 
 # list of all pairs and their section assignments
-input_file = '2022/4/input.txt'
+input_file = '2022/4/4.txt'
 with open(input_file) as f:
     pairs = f.read().splitlines()
 

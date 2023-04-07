@@ -4,7 +4,7 @@
 import re, functools
 
 # split input into the starting stacks and the following rearrangement procedures
-input_file = '2022/5/input.txt'
+input_file = '2022/5/5.txt'
 with open(input_file) as f:
     stacks, moves = f.read().split('\n\n')
 

@@ -1,7 +1,7 @@
 # day 6 solution
 # Tuning Trouble
 
-input_file = '2022/6/input.txt'
+input_file = '2022/6/6.txt'
 with open(input_file) as f:
     signal = f.read()
 

@@ -2,7 +2,7 @@
 # Calorie Counting
 
 # split the input list into a new list with each item in the list representing the calories of all snacks carried by one elf
-input_file = '2022/1/input.txt'
+input_file = '2022/1/1.txt'
 with open(input_file) as f:
     elf_list = f.read().split('\n\n')
 

@@ -2,7 +2,7 @@
 # Rock Paper Scissors
 
 # format input list to remove spaces
-input_file = '2022/2/input.txt'
+input_file = '2022/2/2.txt'
 with open(input_file) as f:
     guide = f.read().replace(' ', '').splitlines()
 

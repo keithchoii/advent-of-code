@@ -4,7 +4,7 @@
 from collections import defaultdict
 from itertools import accumulate
 
-input_file = '2022/7/input.txt'
+input_file = '2022/7/7.txt'
 with open(input_file) as f:
     data = f.read().splitlines()
 
