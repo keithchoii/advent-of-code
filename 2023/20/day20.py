@@ -1,7 +1,7 @@
 # day 0 solution
 # Title
 
-input_file = '2022/8/input.txt'
+input_file = '2023\20\0.txt'
 with open(input_file) as f:
 	data = f.read()
 

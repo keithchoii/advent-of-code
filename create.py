@@ -3,7 +3,7 @@
 
 import os
 
-CURR_YEAR = '2022'
+CURR_YEAR = '2023'
 
 def directories() -> None:
     try:
@@ -38,7 +38,7 @@ def create_file(path: str, file_name: str) -> None:
                 f.write(("# day " + file_name.split('.')[0][-1] + " solution\n"
                          "# Title\n"
                          "\n"
-                         "input_file = '2022/8/input.txt'\n"
+                         "input_file = '" + path + "\\" + file_name.split('.')[0][-1] + ".txt'\n"
                          "with open(input_file) as f:\n"
                          "\tdata = f.read()\n"
                          "\n"
@@ -52,7 +52,6 @@ def create_file(path: str, file_name: str) -> None:
             print(f'{file_name} created in {path}')
         case _:
             print(f"{file_name}'s file type '{_}' not supported")
-
 
 
 if __name__ == '__main__':
